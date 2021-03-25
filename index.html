@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "author" content = "Lisa Leung">
+    <meta name = "description" content = "Light and Sound Memory Game">
+    <meta name = "keywords" content = "HTML, CSS, JS, SITE, Light and Sound, Memory Game">
 
     <title>SITE Prework | Light and Sound Memory Game | Lisa Leung</title>
     
@@ -17,7 +20,13 @@
     <h1>Light and Sound Memory Game</h1>
     
     <p>
-      Welcome to the game! Repeat back the pattern by pressing buttons.
+      Welcome to the game! Repeat back the pattern by pressing buttons. 
+      <br>
+      <br>
+      <hr>
+      <br>
+      Icon credits to <a href src = "https://material.io/resources/icons/?icon=chat_bubble_outline&style=outline">Material Design</a>.
+      Color credits to <a href src = "https://coolors.co/f94144-f3722c-f79926-f9c74f-90be6d-43aa8b-4d908e-cee8f3-73568f-903c5b">Coolors</a>.
     </p>
     <button id = "startBtn" onclick = "startGame()">
       Start
@@ -26,10 +35,55 @@
       Stop
     </button>
     <div id = "gameButtonArea">
-      <button id = "button1" onclick = "guess(1)" onmousedown = "startTone(1)" onmouseup = "stopTone()"></button>
-      <button id = "button2" onclick = "guess(2)" onmousedown = "startTone(2)" onmouseup = "stopTone()"></button>
-      <button id = "button3" onclick = "guess(3)" onmousedown = "startTone(3)" onmouseup = "stopTone()"></button>
-      <button id = "button4" onclick = "guess(4)" onmousedown = "startTone(4)" onmouseup = "stopTone()"></button>
+      <!--names from Coolors: https://coolors.co/f94144-f3722c-f79926-f9c74f-90be6d-43aa8b-4d908e-cee8f3-73568f-903c5b
+      <!--icons from Material Design: https://material.io/resources/icons/?icon=chat_bubble_outline&style=outline-->
+      <button id = "button1" onclick = "guess(1)" onmousedown = "startTone(1)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fnightlight_round-24px.svg?v=1616614534436" alt = "nightlight icon">
+        <br>
+        Orange Red
+      </button>
+      <button id = "button2" onclick = "guess(2)" onmousedown = "startTone(2)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fchat_bubble_outline-24px.svg?v=1616614565041" alt = "chat icon">
+        <br>
+        Yellow Orange
+      </button>
+      <button id = "button3" onclick = "guess(3)" onmousedown = "startTone(3)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fwork_outline-24px.svg?v=1616614565302" alt = "briefcase icon">
+        <br>
+        Maize Crayola
+      </button>
+      <button id = "button4" onclick = "guess(4)" onmousedown = "startTone(4)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fpause_circle-24px.svg?v=1616614565431" alt = "pause icon">
+        <br>
+        Pistachio
+      </button>
+      <button id = "button5" onclick = "guess(5)" onmousedown = "startTone(5)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fnote-24px.svg?v=1616614565540" alt = "note icon">
+        <br>
+        Zomp
+      </button>
+      <button id = "button6" onclick = "guess(6)" onmousedown = "startTone(6)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Foutlet-24px.svg?v=1616614569182" alt = "outlet icon">
+        <br>
+        Cadet Blue
+      </button>
+      <button id = "button7" onclick = "guess(7)" onmousedown = "startTone(7)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fwatch_later-24px.svg?v=1616614569237" alt = "watch later icon">
+        <br>
+        CG Blue
+      </button>
+      <button id = "button8" onclick = "guess(8)" onmousedown = "startTone(8)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fsavings-24px.svg?v=1616614569318" alt = "savings pig icon">
+        <br>
+        French Lilac
+      </button>
+      <button id = "button9" onclick = "guess(9)" onmousedown = "startTone(9)" onmouseup = "stopTone()">
+        <img class = "icon" src = "https://cdn.glitch.com/992cbb0b-8658-47f2-ba38-cc9819a5f232%2Fpower_settings_new-24px.svg?v=1616614569386" alt = "power button icon">
+        <br>
+        Red Salsa
+      </button>
+      
+      
     </div>
 
   

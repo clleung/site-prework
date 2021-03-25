@@ -6,7 +6,7 @@ Submitted by: **Lisa Leung**
 
 Time spent: **0.75** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: [Github](github.com/clleung/site-prework)
 
 ## Required Functionality
 
@@ -22,19 +22,24 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+* [x] Applied color scheme to the buttons and background
+* [x] Styled images and icons (and credited them)
+* [x] Added alt tag to images and icons/names for accessibility 
+* [x] Provided links to references within the code for easy access
+* [x] Organized CSS and JS and left comments. 
+
 
 ## Video Walkthrough
 
@@ -44,9 +49,21 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-None aside from the writeup. 
-https://courses.codepath.org/snippets/summer_internship_for_tech_excellence/prework#heading-6-starting-and-stopping-the-game
-
+  * [The writeup] (https://courses.codepath.org/snippets/summer_internship_for_tech_excellence/prework#heading-6-starting-and-stopping-the-game)
+    * Main game functions, infrastructure of the game.
+  * [Markdown Guide] (https://www.markdownguide.org/basic-syntax/)
+  * [JSHint] (https://jshint.com/) 
+    * Debugging: syntax, brackets, etc.
+  * [Material Design Icons] (https://material.io/resources/icons/?icon=chat_bubble_outline&style=outline)
+  * [Coolors Color Generator] (https://coolors.co/f94144-f3722c-f79926-f9c74f-90be6d-43aa8b-4d908e-cee8f3-73568f-903c5b)
+  * [Google Autoplay Policy Changes] (https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio)
+    * Debugging: audio issues with running the site through Glitch
+  * [W3Schools] (https://www.w3schools.com/)
+    * Syntax for HTML Buttons and Images
+    * Syntax for CSS borders
+    * [Math.random and Math.floor usage] (https://www.w3schools.com/jsref/jsref_random.asp*/)
+  * [Physical Music - Notes] (https://pages.mtu.edu/~suits/notefreqs.html)
+  
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 It was a challenge to rethink how I normally used Javascript and the game logic flow chart, as I typically use other methods to determine conditions. I overcame it by rethinking my approach and adhering as best as I could to the flowchart. 
 
