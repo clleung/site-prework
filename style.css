@@ -2,64 +2,147 @@
 SITE Prework | Light and Sound Memory Game | Lisa Leung 
 CSS Styles
 1 . General Styles
+      Body
+      H1
+2 . Button Styles
+      Button
+      startBtn, stopBtn
+      2 . 1 Game Button Styles
+              Buttons 1-9
 
-Button Styles
+3 . Asset Styles
+      Icon
+4 . Special Styles
+      Hidden
 
-Special Styles
 */
 /*1 . General Styles*/
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: slategrey;
-  color: white;
+  background-color: #CEE8F3;/*Light blue*/
+  color: #1D0C12; /*black*/
 }
 
 h1 {
   font-family: verdana, arial, sans-serif;
-  color: white;
+  color: #903C5B; /*magenta*/
 }
-/*Button Styles*/
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #C87E99;
+}
+hr {
+  border-top: 1px;
+  color: #1D0C12;
+}
+/*2 . Button Styles*/
 button {
   padding: 10px;
   border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  
 }
+#startBtn, #stopBtn{
+  margin: 1rem;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  width: 90vw;
+  background-color: #F9F1F4; /*white*/
+  color: #1D0C12; /*black*/
+  border: ridge;
+}
+/*2 . 1 Game Button Styles*/
 
 #gameButtonArea > button {
-  width: 200px;
-  height: 200px;
-  margin: 2px;
-}
-#button1 {
-  background: lightgreen;
-}
+  width: 30vw;
+  height: 20vh;
+  margin: 0.5rem;
+  color: #F9F1F4; /*white*/
 
-#button1:active, #button1.lit {
-  background: green;
 }
-#button2 {
-  background: lightblue;
+/*
+follows coolors color palette: 
+https://coolors.co/f94144-f3722c-f79926-f9c74f-90be6d-43aa8b-4d908e-277da1-73568f-aa496c
+https://coolors.co/fb7477-f58b51-f9ac4d-fad275-a9cc8e-5fbfa2-60a9a7-3098c5-9073ab-bc6283
+
+*/
+#button1 { /*red*/
+  background: #F94144;
+}
+#button1:active, #button1.lit {
+  background: #FC9C9E;
+}
+#button2 { /*orange*/
+  background: #F3722C;
 }
 
 #button2:active, #button2.lit {
-  background: blue;
+  background: #F7A578;
 }
-#button3 {
-  background: pink;
+#button3 { /*tangerine*/
+  background: #F8961E;
 }
 
 #button3:active, #button3.lit {
-  background: red;
+  background: #FABE75;
 }
-#button4 {
-  background: lightyellow;
+#button4 { /*yellow*/
+  background: #F9C74F;
 }
 
 #button4:active, #button4.lit {
-  background: yellow;
+  background: #FBDF9D;
+}
+#button5 { /*light green*/
+  background: #90BE6D;
 }
 
-/*special attributes*/
+#button5:active, #button5.lit {
+  background: #BFD9AB;
+}
+
+#button6 { /*medium green*/
+  background: #43AA8B;
+}
+
+#button6:active, #button6.lit {
+  background: #7CCBB3;
+}
+#button7 { /*turquoise*/
+  background: #4D908E;
+}
+
+#button7 :active, #button7.lit {
+  background: #7AB8B6;
+}
+#button8 { /*blue*/
+  background: #277DA1;
+}
+
+#button8:active, #button8.lit {
+  background: #4AAAD3;
+}
+#button9 { /*purple*/
+  background: #73568F;
+}
+
+#button9:active, #button9.lit {
+  background: #A48CBA;
+}
+
+/*Asset Styles*/
+.icon {
+  width: 10vw;
+  height: auto;
+  max-width: 120px;
+  max-height: 120px;
+  margin-bottom: 1rem;
+}
+/*4 . Special Styles*/
 .hidden {
   display: none;
 }
