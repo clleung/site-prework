@@ -63,18 +63,21 @@ Here's a walkthrough of implemented user stories:
     * [Math.random and Math.floor usage] (https://www.w3schools.com/jsref/jsref_random.asp*/)
   * [Physical Music - Notes] (https://pages.mtu.edu/~suits/notefreqs.html)
   
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-It was initially a challenge to debug some of the newer features (randomization and speedup) in Glitch due to my unfamiliarity with Google's autoplay policies. I also had issues with some simpler syntax debugging, as I am typically used to using VSCode. 
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
-To overcome those issues, I conducted searches on Google, used the console, and even tried compiling everything locally to ensure everything was correct. In particular, I made sure to credit my sources and ensure I understood why the issues were being made.
+    It was initially a challenge to debug some of the newer features (randomization and speedup) in Glitch due to my unfamiliarity with Google's autoplay policies. I also had issues with some simpler syntax debugging, as I am typically used to using VSCode. 
+
+    To overcome those issues, I conducted searches on Google, used the console, and even tried compiling everything locally to ensure everything was correct. In particular, I made sure to credit my sources and ensure I understood why the issues were being made.
+
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
   * How can I learn to integrate fundamental JS smoothly with other libraries?
   * How can I determine the most efficient and correct way to code certain features (libraries, frameworks, etc.)?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-Given a few more hours to work on the project, I would complete the remaining optional tasks as a challenge to myself, create more pages, and expand the light and sound buttons to the entire web page, passively cycling through the sounds and buttons (which would be updated in color and frequency) to make it seem more enticing; I would also consider adding a more intriguing user interface to make it seem like an arcade game. 
 
-On the other hand, I would have also liked to pursue methods of making games such as this one more accessible. Due to my personal time limit, I was only able to use icons and words as a visual assistant, but I would have liked to link the game to the keyboard and perhaps even attempt to use a library so that the user can try to sing the notes in response.
+    Given a few more hours to work on the project, I would complete the remaining optional tasks as a challenge to myself, create more pages, and expand the light and sound buttons to the entire web page, passively cycling through the sounds and buttons (which would be updated in color and frequency) to make it seem more enticing; I would also consider adding a more intriguing user interface to make it seem like an arcade game. 
+
+    On the other hand, I would have also liked to pursue methods of making games such as this one more accessible. Due to my personal time limit, I was only able to use icons and words as a visual assistant, but I would have liked to link the game to the keyboard and perhaps even attempt to use a library so that the user can try to sing the notes in response.
 
 
 
